@@ -52,8 +52,8 @@ h6 {
   position: fixed;
   visibility: hidden;
   opacity: 0;
-  right: 48%;
-  bottom: 50px;
+  right: 48.95%;
+  bottom: 10px;
   z-index: 996;
   background: #007bff;
   width: 40px;
@@ -654,13 +654,25 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
+.box.row-2 {
+    height: 380px;
+}
+
+.box.row-1 {
+    height: 265px;
+}
+
+.box.row-3 {
+    height: 240px;
+}
+
 #services .box:hover {
   transform: translateY(-5px);
 }
 
 #services .icon {
   position: absolute;
-  left: -15px;
+  left: 2px;
   top: calc(50% - 32px);
 }
 
